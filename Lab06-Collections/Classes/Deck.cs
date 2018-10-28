@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Text;
-using Lab06_Collections.Classes;
 
 namespace Lab06_Collections.Classes
 {
@@ -30,16 +28,15 @@ namespace Lab06_Collections.Classes
             count--;
         }
 
-        public Deck<Card> ChooseCardSuit(Suits suit)
+        public Deck<Card> ChooseCardSuit(Card.Suit suit)
         {
             Deck<Card> holder = new Deck<Card>();
 
             for (int i = 0; i < count; i++)
             {
                 Card card = (Card)Convert.ChangeType(cards[i], typeof(Card));
-                if (holder.Suits == suit)
+                if (card.Suits == suit)
                 {
-                    holder.Card
                     holder.AddCard(card);
                 }
             }
