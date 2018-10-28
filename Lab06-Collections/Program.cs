@@ -34,8 +34,13 @@ namespace Lab06_Collections
             ViewAllCards(dealer);
             Card card = new Card(Card.Suit.Clubs, Card.CardsNomenclature.Ace);
             dealer.AddCard(card);
+            Console.WriteLine("");
+            Console.WriteLine($"{card.Rank} of {card.Suits} was added to the deck");
+            Console.WriteLine("");
             Console.WriteLine("List with added card");
+            Console.WriteLine("");
             ViewAllCards(dealer);
+            Console.WriteLine("");
             Console.WriteLine("Thank you for checking out my game");
             Console.WriteLine("Press enter to exit");
             Console.ReadKey();
