@@ -6,11 +6,19 @@ namespace Lab06_Collections.Classes
 {
     public class Card
     {
+        /// <summary>
+        /// sets the properties of the card
+        /// </summary>
         public Suit Suits { get; set; }
         public CardsNomenclature Rank { get; set; }
         public int Value { get; set; }
 
 
+        /// <summary>
+        /// Creates new card
+        /// </summary>
+        /// <param name="suit"></param>
+        /// <param name="rank"></param>
         public Card(Suit suit, CardsNomenclature rank)
         {
             Suits = suit;
@@ -18,6 +26,10 @@ namespace Lab06_Collections.Classes
             Value = (int)rank;
         }
 
+
+        /// <summary>
+        /// Constructor if no parameters are passed in
+        /// </summary>
         public Card()
         {
             Array suits = Enum.GetValues(typeof(Suit));
@@ -28,6 +40,10 @@ namespace Lab06_Collections.Classes
             Value = (int)randomCardRank;
         }
 
+
+        /// <summary>
+        /// Enum that holds all the suit names
+        /// </summary>
         public enum Suit
         {
             Clubs,
@@ -36,6 +52,9 @@ namespace Lab06_Collections.Classes
             Spades
         }
 
+        /// <summary>
+        /// Enum that holds all the card names
+        /// </summary>
         public enum CardsNomenclature
         {
             Ace = 14,

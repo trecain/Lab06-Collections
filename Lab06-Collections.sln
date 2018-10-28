@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06-Collections", "Lab06-Collections\Lab06-Collections.csproj", "{162C78BA-1C4A-4BDD-8C9E-EC2FEA24ABAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab06-Collections", "Lab06-Collections\Lab06-Collections.csproj", "{162C78BA-1C4A-4BDD-8C9E-EC2FEA24ABAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameTest", "CardGameTest\CardGameTest.csproj", "{F171E927-5F16-4F51-A8E4-3627DEFEDE46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{162C78BA-1C4A-4BDD-8C9E-EC2FEA24ABAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162C78BA-1C4A-4BDD-8C9E-EC2FEA24ABAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162C78BA-1C4A-4BDD-8C9E-EC2FEA24ABAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F171E927-5F16-4F51-A8E4-3627DEFEDE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F171E927-5F16-4F51-A8E4-3627DEFEDE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F171E927-5F16-4F51-A8E4-3627DEFEDE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F171E927-5F16-4F51-A8E4-3627DEFEDE46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
