@@ -13,4 +13,6 @@ This is a randomly generated deck of cards that adds, removes, and organizes car
 4 - dotnet run 
 
 ```
-![OOP Diagram]()
+
+## Visual: 
+![Card Game](https://github.com/trecain/Lab06-Collections/blob/master/assets/deckOfCards.PNG)
