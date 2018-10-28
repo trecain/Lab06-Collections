@@ -8,6 +8,9 @@ namespace Lab06_Collections
     {
         public static void Main(string[] args)
         {
+            ///<summary>
+            /// Runs game logic
+            /// </summary>
             Drawl();
         }
 
@@ -29,7 +32,10 @@ namespace Lab06_Collections
             Console.WriteLine("cards left:");
             Console.WriteLine("");
             ViewAllCards(dealer);
-            Console.WriteLine();
+            Card card = new Card(Card.Suit.Clubs, Card.CardsNomenclature.Ace);
+            dealer.AddCard(card);
+            Console.WriteLine("List with added card");
+            ViewAllCards(dealer);
             Console.WriteLine("Thank you for checking out my game");
             Console.WriteLine("Press enter to exit");
             Console.ReadKey();
